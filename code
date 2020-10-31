@@ -1,0 +1,13 @@
+family = ["Nisha", "Shaan", "Thash", "Kanya", "Chooks"]
+family.append("Seelan")
+print(family) # ['Nisha', 'Shaan', 'Thash', 'Kanya', 'Chooks', 'Seelan']
+family.insert(0, "Naadiya")
+print(family) # ['Naadiya', 'Nisha', 'Shaan', 'Thash', 'Kanya', 'Chooks', 'Seelan']
+family.insert(3, "David")
+print(family) # ['Naadiya', 'Nisha', 'Shaan', 'David', 'Thash', 'Kanya', 'Chooks', 'Seelan']
+family.remove("David")
+print(family) # ['Naadiya', 'Nisha', 'Shaan', 'Thash', 'Kanya', 'Chooks', 'Seelan']
+family.pop(5)
+print(family) # ['Naadiya', 'Nisha', 'Shaan', 'Thash', 'Kanya', 'Seelan']
+family[3] = "Aaliyah"
+print(family) # ['Naadiya', 'Nisha', 'Shaan', 'Aaliyah', 'Kanya', 'Seelan']
