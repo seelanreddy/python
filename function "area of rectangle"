@@ -1,0 +1,4 @@
+def area_rectangle(base, height):
+	return base * height
+area = area_rectangle(5,6)
+print("The area of the rectangle is " + str(area)
