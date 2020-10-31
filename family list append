@@ -6,7 +6,7 @@ print(family) # ['Naadiya', 'Nisha', 'Shaan', 'Thash', 'Kanya', 'Chooks', 'Seela
 family.insert(3, "David")
 print(family) # ['Naadiya', 'Nisha', 'Shaan', 'David', 'Thash', 'Kanya', 'Chooks', 'Seelan']
 family.remove("David")
-print(family) # ['Naadiya', 'Nisha', 'Shaan', 'Thash', 'Kanya', 'Chooks', 'Seelan']
+print(family) # ['Naadiya', 'Nisha', 'Shaan', 'Thash', 'Kanya', 'Chooks', 'Seelan
 family.pop(5)
 print(family) # ['Naadiya', 'Nisha', 'Shaan', 'Thash', 'Kanya', 'Seelan']
 family[3] = "Aaliyah"
